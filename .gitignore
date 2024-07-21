@@ -1,0 +1,52 @@
+# Файлы и папки Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Сборочные артефакты
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.pdb
+*.idb
+*.ipch
+*.pch
+*.lib
+*.dll
+*.exe
+
+# Файлы среды
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Папки отладки
+*.ncb
+*.sdf
+*.opensdf
+*.suo
+
+# Папки кеша
+*.cache
+*.d
+*.swp
+
+# Файлы зависимостей
+*.log
+*.tmp
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+Makefile
+
+# Другое
+*.dSYM/
+*.db
+*.vscode/
