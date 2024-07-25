@@ -1,25 +1,12 @@
 // ConsoleApplication.cpp : This file contains the 'main' function. Program execution begins and ends there.
 
 #include <iostream>
+#include "Convert.h"
 using namespace std;
-
-struct inflatable
-{
-	char name[20];
-	float volume;
-	double price;
-};
 
 int main()
 {
-	constexpr inflatable bouquet =
-	{
-		"sunflowers",
-		0.20,
-		12.49
-	};
-
-	cout << bouquet.price;
-
+	Convert::productinfo toy = Convert::createStruct("Bob", 4, 50.30);
+	cout << "Product Name: " << toy.name << ", Volume: " << toy.volume << ", Price: $" << toy.price << endl;
 	return 0;
 }

@@ -12,3 +12,14 @@ void Convert::StoneToLb()
 	cout << stone << " stone are ";
 	std::cout << pounds << " pounds.\n";
 }
+
+Convert::productinfo Convert::createStruct(string product_name, int product_volume, double product_price)
+{
+	productinfo product;
+	product.name = product_name;
+	product.volume = product_volume;
+	product.price = product_price;
+	return product;
+}
+
+
