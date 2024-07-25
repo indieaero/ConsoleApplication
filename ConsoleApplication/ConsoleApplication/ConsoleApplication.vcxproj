@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="ConsoleApplication.cpp" />
     <ClCompile Include="Convert.cpp" />
+    <ClCompile Include="UnionExample.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Convert.h" />
+    <ClInclude Include="UnionExample.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

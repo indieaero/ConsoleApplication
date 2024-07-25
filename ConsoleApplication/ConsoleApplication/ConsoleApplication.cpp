@@ -1,12 +1,17 @@
 // ConsoleApplication.cpp : This file contains the 'main' function. Program execution begins and ends there.
 
 #include <iostream>
-#include "Convert.h"
+#include "UnionExample.h"
 using namespace std;
+
 
 int main()
 {
-	Convert::productinfo toy = Convert::createStruct("Bob", 4, 50.30);
-	cout << "Product Name: " << toy.name << ", Volume: " << toy.volume << ", Price: $" << toy.price << endl;
+	UnionExample::oneforall example;
+	example.int_val = 4;
+	cout << example.int_val;
+	example.double_val = 4.0;
+	cout << example.double_val;
+
 	return 0;
 }

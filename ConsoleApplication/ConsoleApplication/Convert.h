@@ -15,7 +15,7 @@ public:
 
 	static void StoneToLb();
 
-	//Define method to create struct
+	//Define method to create struct. CreateStruct will return type productinfo.
 	static productinfo createStruct(string product_name, int product_volume, double product_price);
 };
 
