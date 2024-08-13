@@ -12,6 +12,8 @@ int main()
 	cout << example.int_val;
 	example.double_val = 4.0;
 	cout << example.double_val;
+	//Comment 1
+	//Comment 2
 
 	return 0;
 }
