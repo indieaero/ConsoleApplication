@@ -7,6 +7,11 @@ using namespace std;
 
 int main()
 {
-	cout << "Hello";
+	UnionExample::oneforall example;
+	example.int_val = 4;
+	cout << example.int_val;
+	example.double_val = 4.0;
+	cout << example.double_val;
+
 	return 0;
 }
